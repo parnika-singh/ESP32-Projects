@@ -1,8 +1,8 @@
 #include <WiFi.h>
 
 //wifi network password and name:
-const char* ssid = "Kapayo";
-const char* psswd = "9810888192";
+const char* ssid = "YOUR_SSID";
+const char* psswd = "PASSWORD";
 
 //setting web server port no to 80
 WiFiServer Server(80);
