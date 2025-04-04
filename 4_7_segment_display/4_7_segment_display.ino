@@ -1,6 +1,5 @@
 // C++ code
-//
-//7,8,9 + GND  and 
+
 void setup()
 {
   pinMode(15, OUTPUT);  
@@ -41,22 +40,4 @@ void loop()
   delay(1000);
   digitalWrite(39, HIGH);
   delay(1000);
-  //digitalWrite(, HIGH);
-
-/*
-  digitalWrite(11, LOW);
-  delay(1000); // Wait for 1000 millisecond(s)
-  digitalWrite(10, LOW);
-  delay(1000);
-  digitalWrite(8, LOW);
-  delay(1000);
-  digitalWrite(7, LOW);
-  delay(1000);
-  digitalWrite(6, LOW);
-  delay(1000);
-  digitalWrite(12, LOW);
-  delay(1000);
-  digitalWrite(13, LOW);
-  delay(1000);
-*/
 }
