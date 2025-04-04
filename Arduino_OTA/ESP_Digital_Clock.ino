@@ -3,8 +3,8 @@
 #include <time.h>
 
 // WiFi Credentials
-const char* ssid = "Clary";
-const char* password = "12345678";
+const char* ssid = "YOUR_SSID";
+const char* password = "PASSWORD";
 
 // NTP Server Settings
 const char* ntpServer = "pool.ntp.org";
