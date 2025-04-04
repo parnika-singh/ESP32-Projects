@@ -51,14 +51,14 @@ void handleConnect() {
 
 void setup() {
     WiFi.mode(WIFI_STA);
-    WiFi.begin("Clary", "parnika_sing"); // Change this to your initial Wi-Fi
+    WiFi.begin("SSID", "PASSWORD"); // Change this to your initial Wi-Fi
     Serial.begin(115200);
 
     while (WiFi.status() != WL_CONNECTED) {
         delay(500);
         Serial.print(".");
     }
-    Serial.println("Connected to Clary! IP: " + WiFi.localIP().toString());
+    Serial.println("Connected to SSID! IP: " + WiFi.localIP().toString());
 
     server.on("/", handleRoot);
     server.on("/connect", handleConnect);
