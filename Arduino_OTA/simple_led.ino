@@ -1,8 +1,8 @@
 #include <WiFi.h>
 #include <ArduinoOTA.h>
 
-const char* ssid = "Clary";     // Replace with your WiFi SSID
-const char* password = "parnika_sing"; // Replace with your WiFi Password
+const char* ssid = "SSID";     // Replace with your WiFi SSID
+const char* password = "PASSWORD"; // Replace with your WiFi Password
 
 void setup() {
     Serial.begin(115200);
